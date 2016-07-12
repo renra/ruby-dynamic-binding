@@ -18,3 +18,5 @@ number = 4
 doubler.apply(binding)
 # => 8
 ```
+
+The example above is an over-simplifed anti-pattern but it demonstrates the principle - a block suddenly gains access to the binding from which it is called
