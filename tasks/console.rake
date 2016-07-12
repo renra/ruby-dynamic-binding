@@ -3,7 +3,7 @@ task :console do
   require 'irb'
   require 'irb/completion'
 
-  require 'lib/dynamic_binding'
+  require 'lib/contextual_proc'
 
   ARGV.clear
   IRB.start
